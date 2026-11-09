@@ -1,0 +1,1 @@
+#!/usr/bin/env bash\nset -euo pipefail\ndocker compose config\ndocker compose up --build -d\ndocker compose ps\n
